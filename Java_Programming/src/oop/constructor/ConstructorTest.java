@@ -1,17 +1,38 @@
 package oop.constructor;
 
-public class ConstructorTest {
+class A {
 
-	public ConstructorTest() {
-		// TODO Auto-generated constructor stub
+	A() {
+	
 		System.out.println("HJiiiii Constr");
 	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		ConstructorTest v = new ConstructorTest();
-		
-
+}
+public class ConstructorTest extends A
+	{
+		ConstructorTest(int a )
+		{
+			System.out.println("second constructor");
+		}
+		ConstructorTest(float b)
+		{
+			System.out.println("third constructor");
+		}
+		public static void main(String args[])
+		{
+			ConstructorTest C = new ConstructorTest(10);
+			ConstructorTest C1 = new ConstructorTest(10.0056f);
+			
+		}
 	}
 
-}
+
+
+
+
+
+
+
+
+
+
+
