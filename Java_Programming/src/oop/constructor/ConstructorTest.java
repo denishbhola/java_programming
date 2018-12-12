@@ -9,7 +9,7 @@ public class ConstructorTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		new ConstructorTest();
+		ConstructorTest v = new ConstructorTest();
 		
 
 	}
