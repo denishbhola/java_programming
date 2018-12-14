@@ -17,7 +17,7 @@ abstract public class B extends A{
 class C  extends B{
 
 	@Override
-	void sub() {
+	void sub() {	
 		// TODO Auto-generated method stub
 		
 	}
